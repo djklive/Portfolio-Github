@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    font-family: "Roboto", sans-serif;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 6rem;
+    background-color: black;
+    z-index: 1;
+}
+
+.section {
+    width: 65rem;
+    height: 40rem;
+    margin: 2.5rem auto;
+    position: relative;
+    z-index: 2;
+}
+
+.comment {
+    width: 32.5rem;
+    height: 40rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #eee;
+    
+}
+
+.comment .move {
+    padding: 3rem;
+    padding-left: 4rem;
+}
+
+.comment .move .box {
+    position: relative;
+    margin-top: 2rem;
+    padding-left: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+}
+
+.comment .move .box h1 {
+    color: orange;
+}
+
+.comment .move .box div {
+    position: absolute;
+    top: .8rem;
+    left: 0;
+    width: 2rem;
+    font-size: 2.3rem;
+}
+
+.comment .move .text {
+    font-weight: 700;
+}
+
+.form {
+    width: 32.5rem;
+    height: 40rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: orange;
+    
+}
+
+.form .move {
+    padding: 3rem 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form .move .head {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: white;
+}
+
+.form .move .head .ligne {
+    height: .2rem;
+    width: 2rem;
+    background-color: black;
+}
+
+.form .move h1 {
+    font-size: 2.4rem;
+    font-weight: 800;
+}
+
+.form .search-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.form .search-form .input {
+    padding: .8rem;
+    border-radius: .3rem;
+}
+
+.form .search-form .submit {
+    width: 10rem;
+    padding: .8rem;
+    background-color: black;
+    color: white;
+    border-radius: .3rem;
+}
+
+.form textarea {
+    padding: 1rem;
+}
+
+.rotate {
+    width: 27rem;
+    font-size: 2.6rem;
+    background-color: black;
+    height: 4rem;
+    color: white;
+    position: absolute;
+    top: 24.5rem;
+    left: -13rem;
+    z-index: 5;
+    transform: rotate(-90deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
